@@ -2,14 +2,28 @@
 <html>
 <head>
 	<title>Jumpstart MTY</title>
+
+	<!-- Enlazando el menu responsivo -->
+	<link rel="stylesheet" href="responsive-nav/responsive-nav.css">
+    <script src="responsive-nav/responsive-nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="unsemantic/assets/stylesheets/unsemantic-grid-responsive-no-ie7.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	<img src="">
-	<nav>
-		<li>Acerca de</li>
-		<li>Sedes</li>
-		<li>Aprender</li>
-		<li>Contacto</li>
-	</nav>	
+	<nav class="nav-collapse">
+	  <ul>
+	    <li><a href="#">Acerca de</a></li>
+	    <li><a href="#">Aprende</a></li>
+	    <li><a href="#">Sedes</a></li>
+	    <li><a href="#">Contacto</a></li>
+	  </ul>
+	</nav>
+
+	<!-- Script del menu responsivo -->
+	<script>
+  var nav = responsiveNav(".nav-collapse");
+</script>
+
 </body>
 </html>
