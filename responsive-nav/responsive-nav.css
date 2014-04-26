@@ -36,15 +36,44 @@
 }
 
 .nav-toggle {
-  float: right;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  position: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  -o-user-select: none;
   user-select: none;
+  text-decoration: none;
+  text-indent: -999px;
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 55px;
+  float: right;
 }
+
+
+.nav-toggle:before {
+  color: #088A08; /* Edit this to change the icon color */
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 32px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
 
 @media screen and (min-width: 40em) {
   .js .nav-collapse {
