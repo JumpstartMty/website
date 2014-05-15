@@ -181,12 +181,6 @@ margin-top:10px;
 
 /*START LOCATIONS*/
 
-.location{
-  background-color: white;
-  height: auto;
-  margin-bottom: 30px;
-  border:solid 1px #cecece;
-}
 
 .location h1{
   font-size: 32px;
@@ -197,9 +191,7 @@ margin-top:10px;
 .location h2{
   font-size: 36px;
   font-family: "Helvetica";
-  padding-left: 12px;
   display: inline-block;
-  vertical-align: top;
 }
 
 .location h3{
@@ -214,134 +206,26 @@ margin-top:10px;
 }
 
 .location p{
-  font-size: 14px;
-  padding: 10px 12px 10px 12px;
+  font-family: Helvetica;
+  font-size: 16px;
+  margin:10px 0 20px 0;
 }
 
-.verMas{
-  border: solid 1px #6b9b60;
-  border-radius:5px;
-  color: #6b9b60;
-  text-align: center;
-  text-decoration: none;
- font-size: 24px;
- font-family: "Helvetica";
- display: inline-block;
- margin-top: 25px;
- padding:10px 0 10px 0;
- width: 45%;
+.ui.facebook.button, .ui.twitter.button{
+  font-family: Helvetica;
+  text-transform: none;
 }
 
-.verMas:hover{
-  background-color: #6b9b60;
-  color: #F7F7F7;
-}
-
-
-.loc-bottom{
-  padding-bottom: 11px;
-}
-
-/*social buttons*/
-
-.social{
-  width: 240px;
-  display: inline-block;
-  margin-left: 20px;
- }
-
-/* Wrapper */
-.icon-button {
-  /*background-color: white;*/
-  border-radius: 4.6rem;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 2.0rem;
-  height: 4.6rem;
-  line-height: 4.6rem;
-  margin: 0 5px;
-  position: relative;
-  text-align: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  width: 4.6rem;
-}
-
-/* Circle */
-.icon-button span {
-  border-radius: 0;
-  display: block;
-  height: 0;
-  left: 50%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-       -o-transition: all 0.3s;
-          transition: all 0.3s;
-  width: 0;
-}
-.icon-button:hover span {
-  width: 4.6rem;
-  height: 4.6rem;
-  border-radius: 4.6rem;
-  margin: -2.3rem;
-}
-.facebook span {
-  background-color: #63a873;
-}
-.twitter span {
-  background-color: #63a873;
-}
-.google-plus span {
-  background-color: #63a873;
-}
-.linkedin span {
-  background-color: #63a873;
-}
-
-/* Icons */
-.icon-button i {
-  background: none;
-  color: white;
-  height: 4.6rem;
-  left: 0;
-  line-height: 4.6rem;
-  position: absolute;
-  top: 0;
-  -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-       -o-transition: all 0.3s;
-          transition: all 0.3s;
-  width: 4.6rem;
-  z-index: 10;
-}
-
-.icon-button .fa-facebook,
-.icon-button .fa-twitter,
-.icon-button .fa-google-plus,
- .icon-button .fa-linkedin{
-  color: #63a873;
-}
-
-.icon-button:hover .fa-facebook,
-.icon-button:hover .fa-twitter,
-.icon-button:hover .fa-google-plus,
-.icon-button:hover .fa-linkedin {
-  color: white;
+.ui.green.button, .ui.green.buttons .button{
+  font-family: Helvetica;
+  float: right;
+  text-transform:none;
 }
 
 .location img{
-  display: block;
-  padding-top: 1.5%;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 97%;
-  height: 250px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 5%;
 }
 
 
