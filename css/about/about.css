@@ -367,12 +367,131 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
     padding: 0;
 }    
 
+/*ABOUT*/
 
 .aboutText{
+  font-size: 20px;
   margin: 70px 0 70px 0;
 }
 
+.imageAbout{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.diego{
+  margin-bottom: 80px;
+}
+
+.diego h2{
+  font-size: 26px;
+  text-align: center;
+}
+
+.diego h3{
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.diego p{
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+/*social buttons*/
+
+.social{
+  display: block;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 240px;
+ }
+
+/* Wrapper */
+.icon-button {
+  background-color: white;
+  border-radius: 4.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.0rem;
+  height: 4.6rem;
+  line-height: 4.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 4.6rem;
+}
+
+/* Circle */
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+  width: 0;
+}
+.icon-button:hover span {
+  width: 4.6rem;
+  height: 4.6rem;
+  border-radius: 4.6rem;
+  margin: -2.3rem;
+}
+.twitter span {
+  background-color: #63a873;
+}
+.github span {
+  background-color: #63a873;
+}
+.google-plus span {
+  background-color: #63a873;
+}
+.linkedin span {
+  background-color: #63a873;
+}
+
+/* Icons */
+.icon-button i {
+  background: none;
+  color: white;
+  height: 4.6rem;
+  left: 0;
+  line-height: 4.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+  width: 4.6rem;
+  z-index: 10;
+}
+
+.icon-button .fa-twitter,
+.icon-button .fa-github-alt,
+.icon-button .fa-google-plus,
+ .icon-button .fa-linkedin{
+  color: #63a873;
+}
+
+.icon-button:hover .fa-twitter,
+.icon-button:hover .fa-github-alt,
+.icon-button:hover .fa-google-plus,
+.icon-button:hover .fa-linkedin {
+  color: white;
+}
 
 @media (min-width: 40em) {
 

@@ -62,20 +62,26 @@
         <button type="submit">Buscar</button>
     </form>
 
-<a href="#/new"><i class="glyphicon glyphicon-plus-sign"></i></a>
 
+<div class="grid-container">
+  <div class="grid-100">
+    <a href="#/new"><i class="glyphicon glyphicon-plus-sign"></i></a>
 
-<div class="row">
+    <div class="row">
 
-      <div class="col-md-3" ng-repeat="project in projects | orderByPriority | filter:search | orderBy:'name'">
-        <a href="{{project.site}}" target="_blank">{{project.name}}</a>
-        <p>{{project.description}}</p>
-        <div>
-          <a href="#/edit/{{project.$id}}"><i class="glyphicon glyphicon-pencil"></i></a>
-        </div>
-      </div>
-   
+          <div class="col-md-2 miembro" ng-repeat="project in projects | orderByPriority | filter:search | orderBy:'name'">
+            <a href="{{project.site}}" target="_blank">{{project.name}}</a>
+            <p>{{project.description}}</p>
+            <div>
+              <a href="#/edit/{{project.$id}}"><i class="glyphicon glyphicon-pencil"></i></a>
+            </div>
+          </div>
+       
+    </div>
+
+  </div>
 </div>
+
   </script>
 
 
