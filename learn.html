@@ -12,7 +12,10 @@
     <!-- Enlazando unsemantic framework -->
     <link rel="stylesheet" type="text/css" href="unsemantic/assets/stylesheets/unsemantic-grid-responsive-no-ie7.css">
 
-<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<!--Semantic-ui --> 
+<link rel="stylesheet" type="text/css" href="semantic-ui/css/semantic.min.css">
+    <script src="semantic-ui/javascript/semantic.min.js"></script>
+
 
     <link rel="stylesheet" type="text/css" href="css/learn/learn.css">
         
@@ -44,38 +47,38 @@
 
 <div class="grid-container">
   <div class="grid-100">
-<section class= "learnInfo">
-	<div class="grid-30">
-	<div>
-		<h1>¿Quieres crear cosas geniales con tecnología?</h1>
-		<p>
-			Cualquiera puede aprender a programar, no es tan dificil como parece.
-			Saber el como funciona la tecnología que usamos día a día te dará una ventaja
-			considerable tanto de manera personal como profesional.<br/><br/>  Crear esa página web que deseas, esa app exitosa que tienes en mente, <b>es posible</b>, solo tienes que poner manos a la obra. Aquí te dejamos recursos gratuitos para que empieces justo ahora a probar las diferentes tecnologías con las que se construyen cosas geniales hoy en día.
-		</p>
+
+<div class= "two column stackable ui grid learnInfo">
+		<div class="five wide column">
+		<div>
+			<h1>¿Quieres crear cosas geniales con tecnología?</h1>
+			<p>
+				Cualquiera puede aprender a programar, no es tan dificil como parece.
+				Saber el como funciona la tecnología que usamos día a día te dará una ventaja
+				considerable tanto de manera personal como profesional.<br/><br/>  Crear esa página web que deseas, esa app exitosa que tienes en mente, <b>es posible</b>, solo tienes que poner manos a la obra. Aquí te dejamos recursos gratuitos para que empieces justo ahora a probar las diferentes tecnologías con las que se construyen cosas geniales hoy en día.
+			</p>
+		</div>
+	</div>
+
+	<div class="eleven wide column">
+		<iframe width="100%" height="460" src="http://www.youtube.com/embed/nKIu9yen5nc?rel=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>
-
-<div class="grid-70">
-	<iframe width="820" height="480" src="http://www.youtube.com/embed/nKIu9yen5nc?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
-</section>
-</div>
-</div>
+	<div class="ui horizontal icon divider">
+	  <i class="circular code icon"></i>
+	</div>
 
 
-<div class="grid-container">
-	<div class="grid-100">
-		<section class="learnTable">
-  <div class="grid-70">
-<div class="table-responsive">
-<table class="table table-striped" border="3" bordercolor="#F7F7F7" style="background-color:#eaeaea" width="100%" cellpadding="5" cellspacing="3">
-	<tr>
-		<th>Servicio en la web</th>
+<div class= "two column stackable ui grid">
+<div class="eleven wide column learnTable">
+<table class="ui table segment">
+  <thead>
+    <tr><th>Servicio en la web</th>
 		<th>Tecnologías a aprender</th>
 		<th>Idioma</th>
-	</tr>
-	<tr>
+  </tr></thead>
+  <tbody>
+    <tr>
 		<td><a href="http://learn.appendto.com/"  target="_blank">appendTo</a></td>
 		<td>jQuery & JavaScript</td>
 		<td>Inglés</td>
@@ -140,16 +143,17 @@
 		<td>Muchas tecnologías en uno</td>
 		<td>Inglés</td>
 	</tr>
+  </tbody>
 </table>
-</div>
 
-<div class="table-responsive">
-<table class="table table-striped" border="3" bordercolor="#F7F7F7" style="background-color:#eaeaea" width="100%" cellpadding="5" cellspacing="3">
-	<tr>
-		<th>Libros gratuitos</th>
+
+<table class="ui table segment">
+  <thead>
+    <tr><th>Libros gratuitos</th>
 		<th>Idioma</th>
-	</tr>
-	<tr>
+  </tr></thead>
+  <tbody>
+    <tr>
 		<td><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md"  target="_blank">Free Programming books (GitHub)</a></td>
 		<td>Inglés</td>
 	</tr>
@@ -165,20 +169,20 @@
 		<td><a href="http://programming-motherfucker.com/become.html" target="_blank">Become a Programmer, Motherfucker.</a></td>
 		<td>Inglés</td>
 	</tr>
+  </tbody>
 </table>
-</div>
-
 
 </div>
 
-<div class="grid-30">
-  	<div class="phrase">
+<div class="five wide column">
+	<div class="phrase">
   		<img src="img/gabe.jpg">
   		<h1>"Los programadores del mañana son los magos del futuro."</h1>
   		<p>- Gabe Newell</p>
   	</div>
- </div>
-</section>
+</div>
+</div>
+
 </div>
 </div>
 
