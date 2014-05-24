@@ -69,7 +69,9 @@ background-position: center;
 .featured{
   width: 100%;
   height: auto;
-  margin-top: 45px;
+  padding: 50px 0 50px 0;
+  margin-top: -5px;
+  background-color: #705d99;
 }
 
 .featured h1, .sponsor h1{
@@ -79,7 +81,7 @@ background-position: center;
 }
 
 .featured h1, .title i{
-  color:#756282;
+  color:#F7F7F7;
 }
 
 .featured h2{
@@ -138,18 +140,19 @@ h3{
 float: right;
 position: relative;
   margin-top: 5px;
+  color: #FFF !important;
+  border: #FFF !important;
 
 }
 
 .sponsor{
-  margin-top: 60px;
+  padding-top:50px;
   width: 100%;
   height: auto;
   background-color: #d65353;
 }
 
 .sponsor h1{
-margin-top: 30px;
 color: #F7F7F7;
 }
 
@@ -186,7 +189,7 @@ color:#F7F7F7;
 footer{
   width: 100%;
   height: auto;
-  background-color: #efefef;
+  background-color: #518c7b;
 }
 
 ul.rig {
@@ -237,6 +240,11 @@ ul.rig.columns-3 li {
 /* class for 4 columns */
 ul.rig.columns-4 li {
   width: 22.5%; /* this value + 2.5 should = 25% */
+}
+
+/* class for 5 columns */
+ul.rig.columns-5 li {
+  width: 17.5%; /* this value + 2.5 should = 25% */
 }
 
 @media (max-width: 480px) {
