@@ -1,4 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+@font-face
+{
+font-family: RobotoSlab;
+src: url(../fonts/RobotoSlab.ttf);
+}
+
+@font-face
+{
+font-family: geoslab;
+src: url(../fonts/geoslab.ttf);
+}
+
+
 /* ------------------------------------------
   RESET
 ---------------------------------------------*/
@@ -29,8 +44,13 @@ body{
   background-color: #FFF;
 }
 
+header{
+  
+  height: auto;
+}
+
 .logo{
-  margin:10px 0px 10px 20px; 
+  margin:20px 0 20px 0; 
 }
 
 .message{
@@ -43,6 +63,68 @@ background-attachment: fixed;
 background-position: center;
 }
 
+nav{
+  display: inline-block;
+  height:0px;
+  margin-top: 25px;
+  vertical-align: top;
+  right:0px;
+  float: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+  width:100px;
+}
+
+nav ul li a{
+  display: block;
+  color: #F7F7F7;
+  text-decoration: none;
+  font-family: Helvetica;
+  padding:20px 0px 20px 0px;
+}
+ 
+nav ul a:hover{
+  background-color: #000;
+}   
+
+.intro{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.intro a{
+  border:solid 2px #F7F7F7;
+  padding: 15px 35px 15px 35px;
+  color: #F7F7F7;
+  text-decoration: none;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 26px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.intro a:hover{
+  background-color: #F7F7F7;
+  color: #4c824f;
+}
+
+.intro p{
+color: #FFF;
+font-size: 20px;
+font-family: Helvetica;
+width: 80%;
+margin: 40px auto;
+}
 
 #container {
   position: relative;
@@ -61,17 +143,25 @@ background-position: center;
 .content h1{
   text-align: center;
   margin-top: 8%;
-  font-family: Helvetica;
   font-size: 42px;
-  color: #FFF;
+  font-family: RobotoSlab;
+
+  color: #fff6c9;
+  -webkit-text-shadow: -2px 2px 0px #444;
+  -moz-text-shadow:-2px 2px 0px #444;
+  text-shadow: -2px 2px 0px #444;
 }
+
+
+
+
 
 .featured{
   width: 100%;
   height: auto;
-  padding: 50px 0 50px 0;
+  padding: 80px 0 80px 0;
   margin-top: -5px;
-  background-color: #705d99;
+  background-color: #291838;
 }
 
 .featured h1, .sponsor h1{
@@ -96,7 +186,7 @@ h3{
   font-size: 28px;
   color: #585858;
   text-align: center;
-  margin:20px 0 20px 0 ;
+  margin:20px 0 20px 0;
 }
 
 .featured div{
@@ -104,9 +194,19 @@ h3{
   height: auto; 
 }
 
+.featured a{
+  text-decoration: none;
+  color: #F7F7F7;
+}
+
 .featured p{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
+}
+
+
+.featured .ui .segment{
+  background-color: #efefef;
 }
 
 .featured img{
@@ -117,6 +217,7 @@ h3{
   margin-bottom: 15px;
   width: 240px;
   height: 150px;
+  border-radius: 5px;
 }
 
 .ui.purple.button, .ui.purple.buttons .button{
@@ -140,13 +241,22 @@ h3{
 float: right;
 position: relative;
   margin-top: 5px;
-  color: #FFF !important;
+  color: #cecece !important;
   border: #FFF !important;
+  font-family: Helvetica;
+  -webkit-box-shadow:0 0 0 1px rgba(255,255,255,0.3)inset;
+}
+
+.title .ui.button:hover{
+  color: #F7F7F7 !important;
+  -webkit-box-shadow:0 0 0 1px rgba(255,255,255,0.5)inset;
 
 }
 
+
+
 .sponsor{
-  padding-top:50px;
+  padding:80px 0 80px 0;
   width: 100%;
   height: auto;
   background-color: #d65353;
@@ -157,7 +267,7 @@ color: #F7F7F7;
 }
 
 .sponsor h1 i{
-  color: #5e3232;
+  color: #F7F7F7;
   margin-right: 15px;
 }
 
@@ -166,36 +276,41 @@ color: #F7F7F7;
   width: 280px;
 }
 
-.nav-collapse ul{
-	width: 35%;
-	float: right;
-}
-  .nav-collapse li{
-  	width: auto;
-  	padding-top: 10px;
-  	padding-bottom:20px;
-}
-    
-.nav-collapse a{
-    padding:20px 15px 20px 15px;
-    text-decoration: none;
-}
-    
-.nav-collapse a:hover{
-background:rgba(8, 138, 8, 0.5);
-color:#F7F7F7;
-}
-
 footer{
   width: 100%;
   height: auto;
   background-color: #518c7b;
+  padding: 40px 0 40px 0;
 }
+
+footer h1{
+  font-family: geoslab;
+  font-size: 94px;
+  color: #edef5f;
+  letter-spacing: 2px;
+}
+
+.scrollup{
+  float: right;
+}
+
+.scrollup i.icon{
+ text-decoration: none;
+ color: #518c7b; 
+ opacity: 1;
+}
+
+.scrollup i.icon.square{
+ background-color: #edef5f; 
+}
+
+
 
 ul.rig {
   list-style: none;
   font-size: 0px;
   display: block;
+  margin-top: 30px;
   
 }
 ul.rig li {
@@ -269,7 +384,7 @@ ul.rig.columns-5 li {
 
 header{
   padding-left: 20px;
-  margin-top: -65px;
+  
 }
 
 .nav-collapse ul {
