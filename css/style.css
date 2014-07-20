@@ -128,12 +128,12 @@ width: 80%;
 margin: 40px auto;
 }
 
-#container {
+#principal-container {
   position: relative;
   overflow: hidden;
 }
 
-#container .content {
+#principal-container .content {
   /*White background on menu and header
   background:rgba(237, 237, 237, 0.5);*/
   position: absolute;
@@ -167,16 +167,6 @@ margin: 40px auto;
   vertical-align: middle;
 }
 
-.featured h1, .title i{
-  color:#000;
-}
-
-.featured h2{
-  font-size: 24px;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
-  margin-bottom: 10px;
-}
 
 .ui.celled.grid>.column:not(.row), .ui.celled.grid>.row>.column{
   padding: 0;
