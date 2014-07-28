@@ -126,11 +126,6 @@ width: 60%;
 margin: 40px auto;
 }
 
-#principal-container {
-  position: relative;
-  overflow: hidden;
-}
-
 #principal-container .content {
   /*White background on menu and header
   background:rgba(237, 237, 237, 0.5);*/
@@ -138,6 +133,7 @@ margin: 40px auto;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .content h1{
@@ -183,7 +179,7 @@ h3{
   height: auto; 
 }
 
-.projects{
+header, .projects{
   padding-top: 20px;
 }
 
@@ -248,7 +244,7 @@ position: relative;
   padding:80px 0 80px 0;
   width: 100%;
   height: auto;
-  background-color: #d65353;
+  background-color: #E26A6A;
 }
 
 .sponsor h1{
@@ -272,7 +268,7 @@ letter-spacing: 1px;
 footer{
   width: 100%;
   height: auto;
-  background-color: #518c7b;
+  background-color: #1E824C;
   padding: 40px 0 40px 0;
 }
 
