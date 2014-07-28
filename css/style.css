@@ -55,9 +55,6 @@ header{
   height: auto;
 }
 
-.logo{
-  
-}
 
 .message{
 width: 100%;
@@ -102,7 +99,7 @@ nav ul a:hover{
 
 .intro a{
   border:solid 2px #F7F7F7;
-  padding: 15px 35px 15px 35px;
+  padding: 15px 25px 15px 25px;
   color: #F7F7F7;
   text-decoration: none;
   text-align: center;
@@ -110,6 +107,7 @@ nav ul a:hover{
   font-size: 26px;
   border-radius: 5px;
   display: block;
+  margin-top: 4%;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
@@ -122,9 +120,9 @@ nav ul a:hover{
 
 .intro p{
 color: #FFF;
-font-size: 20px;
+font-size: 16px;
 font-family: Helvetica;
-width: 80%;
+width: 60%;
 margin: 40px auto;
 }
 
@@ -144,7 +142,7 @@ margin: 40px auto;
 
 .content h1{
   text-align: center;
-  font-size: 42px;
+  font-size: 36px;
   font-family: Helvetica;
   color: #fff;
 }
@@ -185,6 +183,10 @@ h3{
   height: auto; 
 }
 
+.projects{
+  padding-top: 20px;
+}
+
 .featured a{
   text-decoration: none;
   color: #F7F7F7;
@@ -204,7 +206,6 @@ h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
   cursor: pointer;
 }
 
@@ -373,11 +374,6 @@ ul.rig.columns-5 li {
 
 
 @media (min-width: 40em) {
-
-header{
-  padding-left: 20px;
-  
-}
 
 .nav-collapse ul {
   width: 50%;
