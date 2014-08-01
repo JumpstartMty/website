@@ -225,7 +225,7 @@ header, .projects{
 }
 
 .featured .btn-default{
-  border:solid 3px #efefef;
+  border:solid 2px #efefef;
   font-weight: bold;
   color: #cecece;
 }
@@ -235,7 +235,7 @@ header, .projects{
 }
 
 .featured .btn-default:hover{
-  border:solid 3px #dbdbdb;
+  border:solid 2px #dbdbdb;
   color: #adadad;
   background-color: #FFF;
 }
