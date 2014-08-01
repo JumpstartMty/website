@@ -226,12 +226,7 @@ header, .projects{
 
 .featured .btn-default{
   border:solid 2px #efefef;
-  font-weight: bold;
   color: #cecece;
-}
-
-.featured .btn-default i{
-  font-weight: bold;
 }
 
 .featured .btn-default:hover{
