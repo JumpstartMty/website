@@ -100,7 +100,7 @@ nav ul a:hover{
 }
 
 .intro a{
-  border:solid 2px #F7F7F7;
+  border:solid 3px #26A65B;
   padding: 15px 25px 15px 25px;
   color: #F7F7F7;
   text-decoration: none;
@@ -154,6 +154,18 @@ margin: 40px auto;
   height: auto;
   padding: 80px 0 80px 0;
   margin-top: -5px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    /* inline-block space fix */
+    margin-right:-4px;
 }
 
 .info p{
@@ -210,6 +222,22 @@ header, .projects{
 .featured a{
   text-decoration: none;
   color: #F7F7F7;
+}
+
+.featured .btn-default{
+  border:solid 3px #efefef;
+  font-weight: bold;
+  color: #cecece;
+}
+
+.featured .btn-default i{
+  font-weight: bold;
+}
+
+.featured .btn-default:hover{
+  border:solid 3px #dbdbdb;
+  color: #adadad;
+  background-color: #FFF;
 }
 
 .featured p{
@@ -273,7 +301,7 @@ position: relative;
 }
 
 .sponsor h1{
-color: #F2F2F2;
+color: #FFF;
 text-align: center;
 font-family: Poetsen;
 font-weight: 100;
@@ -286,9 +314,13 @@ padding: 20px 0 20px 0;
   margin-right: 15px;
 }
 
+.sponsor-logos{
+  margin-top: 30px;
+}
+
 .sponsor img{
   display: inline-block;
-  width: 280px;
+  width: 100%;
 }
 
 .sponsor .fa-inverse{
@@ -328,80 +360,6 @@ footer h1{
  background-color: #edef5f; 
 }
 
-
-
-ul.rig {
-  list-style: none;
-  font-size: 0px;
-  display: block;
-  margin-top: 30px;
-  
-}
-ul.rig li {
-  display: inline-block;
-  font-size: 16px;
-  font-size: 1rem;
-  vertical-align: top;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-ul.rig li img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 0 10px;
-}
-
-ul.rig {
-  list-style: none;
-  font-size: 0px;
-  margin-left: -2.5%; /* should match li left margin */
-}
-ul.rig li {
-  display: inline-block;
-  margin: 0 0 2.5% 2.5%;
-  font-size: 16px;
-  font-size: 1rem;
-  vertical-align: top;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-/* class for 2 columns */
-ul.rig.columns-2 li {
-  width: 47.5%; /* this value + 2.5 should = 50% */
-}
-/* class for 3 columns */
-ul.rig.columns-3 li {
-  width: 30.83%; /* this value + 2.5 should = 33% */
-}
-/* class for 4 columns */
-ul.rig.columns-4 li {
-  width: 22.5%; /* this value + 2.5 should = 25% */
-}
-
-/* class for 5 columns */
-ul.rig.columns-5 li {
-  width: 17.5%; /* this value + 2.5 should = 25% */
-}
-
-@media (max-width: 480px) {
-  ul.grid-nav li {
-    display: block;
-    margin: 0 0 5px;
-  }
-  ul.grid-nav li a {
-    display: block;
-  }
-  ul.rig {
-    margin-left: 0;
-  }
-  ul.rig li {
-    width: 100% !important; /* over-ride all li styles */
-    margin: 0 0 20px;
-  }
-}
 
 
 @media (min-width: 40em) {
