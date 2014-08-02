@@ -168,6 +168,10 @@ margin: 40px auto;
     margin-right:-4px;
 }
 
+.info h2{
+  text-align: center;
+}
+
 .info p{
   color: #26A65B;
   font-size: 18px;
