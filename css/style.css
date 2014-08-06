@@ -87,7 +87,7 @@ nav ul li a{
   padding:20px 0px 10px 0px;
 }
  
-nav ul a:hover{
+nav ul li a:hover{
   border-bottom: solid 3px  #FFF;
   text-decoration: none;
    color: #F7F7F7;
@@ -113,7 +113,7 @@ nav ul a:hover{
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-  transition:0.3s;
+  transition:0.3s ease-in-out;
 }
 
 .intro a:hover{
@@ -154,6 +154,7 @@ margin: 40px auto;
   height: auto;
   padding: 80px 0 80px 0;
   margin-top: -5px;
+  background-color: #FFF;
 }
 
 .row-centered {
@@ -169,11 +170,11 @@ margin: 40px auto;
 }
 
 .info h2{
+  color: #26A65B;
   text-align: center;
 }
 
 .info p{
-  color: #26A65B;
   font-size: 18px;
 }
 
@@ -296,11 +297,10 @@ position: relative;
   padding:80px 0 80px 0;
   width: 100%;
   height: auto;
-  background-color: #E26A6A;
+  /*background-color: #E26A6A;*/
 }
 
 .sponsor h1{
-color: #FFF;
 text-align: center;
 font-family: Poetsen;
 font-weight: 100;
@@ -315,6 +315,25 @@ padding: 20px 0 20px 0;
 
 .sponsor-logos{
   margin-top: 30px;
+}
+
+.sponsor-logos img{
+  filter: grayscale(100%); /* Current draft standard */
+    -webkit-filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.sponsor-logos img:hover{
+  filter: grayscale(0%); /* Current draft standard */
+    -webkit-filter: grayscale(0%);
+}
+
+
+.sponsor .heart img{
+  width:70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sponsor img{
