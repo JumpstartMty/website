@@ -114,7 +114,7 @@ nav ul li a:hover{
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-  transition: jump0.3s ease-in-out;
+  transition:0.2s ease-in-out;
 }
 
 .intro a:hover{
@@ -159,8 +159,8 @@ margin: 40px auto;
 }
 
 .explain:hover img{
-  -webkit-animation:jump 0.8s;
-  animation:jump 0.8s;
+  -webkit-animation:jump 0.7s;
+  animation:jump 0.7s;
 }
 
 @-webkit-keyframes jump {
@@ -208,7 +208,7 @@ margin: 40px auto;
 }
 
 .info p{
-  font-size: 18px;
+  font-size: 16px;
   color: #757474;
 }
 
