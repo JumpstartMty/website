@@ -99,6 +99,7 @@ nav ul li a:hover{
   margin: 10% auto;
 }
 
+
 .intro a{
   border:solid 3px #26A65B;
   padding: 15px 25px 15px 25px;
@@ -113,7 +114,7 @@ nav ul li a:hover{
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-  transition:0.3s ease-in-out;
+  transition: jump0.3s ease-in-out;
 }
 
 .intro a:hover{
@@ -149,12 +150,35 @@ margin: 40px auto;
 
 
 
+
 .info{
   width: 100%;
   height: auto;
   padding: 80px 0 80px 0;
   margin-top: -5px;
 }
+
+.explain:hover img{
+  -webkit-animation:jump 0.8s;
+  animation:jump 0.8s;
+}
+
+@-webkit-keyframes jump {
+  0%  {transform: translateY(0px);}
+  25%  {transform: translateY(-15px);}
+  50%  {transform: translateY(0px);}
+  75%  {transform: translateY(-8px);}
+  100%  {transform: translateY(0px);}
+}
+
+@keyframes jump {
+  0%  {transform: translateY(0px);}
+  25%  {transform: translateY(-15px);}
+  50%  {transform: translateY(0px);}
+  75%  {transform: translateY(-8px);}
+  100%  {transform: translateY(0px);}
+}
+
 
 .info .container{
   width:960px;
@@ -179,12 +203,13 @@ margin: 40px auto;
 
 .info h2{
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
   color: #26A65B;
 }
 
 .info p{
   font-size: 18px;
+  color: #757474;
 }
 
 
@@ -363,7 +388,7 @@ color:#FFF;
 footer{
   width: 100%;
   height: auto;
-  background-color: #16A085;
+  background-color: #26A65B;
   padding: 40px 0 40px 0;
 }
 
