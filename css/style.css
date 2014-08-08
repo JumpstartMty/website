@@ -210,6 +210,8 @@ margin: 40px auto;
 .info p{
   font-size: 16px;
   color: #757474;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -407,7 +409,7 @@ footer{
 footer h1{
   font-family: geoslab;
   font-size: 94px;
-  color: #edef5f;
+  color: #F0F0F0;
   letter-spacing: 2px;
 }
 
@@ -415,14 +417,14 @@ footer h1{
   float: right;
 }
 
-.scrollup i.icon{
+.scrollup i{
  text-decoration: none;
- color: #518c7b; 
+ color: #26A65B; 
  opacity: 1;
 }
 
-.scrollup i.icon.square{
- background-color: #edef5f; 
+.scrollup i{
+ background-color: #F0F0F0; 
 }
 
 
