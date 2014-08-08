@@ -180,10 +180,6 @@ margin: 40px auto;
 }
 
 
-.info .container{
-  width:960px;
-}
-
 .info img{
   display: block;
   margin: 0 auto;
@@ -230,7 +226,6 @@ margin: 40px auto;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
-  width:960px;
 }
 
 .featured h1, .sponsor h1{
@@ -438,3 +433,33 @@ footer h1{
 }
 
 }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 768px) { 
+.info .col-sm-6:last-child{
+  margin-top: 40px;
+}
+.info p{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+ }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.info .container{
+  width:960px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .info .container, .featured .container{
+  width:960px;
+} }
