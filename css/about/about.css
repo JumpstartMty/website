@@ -104,6 +104,12 @@ nav ul li a:hover{
   padding: 80px 0 80px 0;
 }
 
+.about img{
+  width: 100px;
+  display: block;
+  margin: 0 auto ;
+}
+
 
 
 footer{
