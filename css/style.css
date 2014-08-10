@@ -256,6 +256,11 @@ header, .projects{
   padding-top: 20px;
 }
 
+.projects .btn-group, .projects p{
+  padding-left:8%;
+  padding-right:8%; 
+}
+
 .featured a{
   text-decoration: none;
   color: #F7F7F7;
@@ -436,30 +441,44 @@ footer h1{
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
 .info .col-sm-6:last-child{
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .info p{
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
  }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
+.projects .btn-group, .projects p{
+  padding-left:14%;
+  padding-right:14%; 
+}
+
  }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
 .info .container{
   width:960px;
 }
+
+.projects .btn-group, .projects p{
+  padding-left:8%;
+  padding-right:8%; 
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
   .info .container, .featured .container{
   width:960px;
-} }
+} 
+
+}
