@@ -50,6 +50,10 @@ body{
   background-color: #F0F0F0;
 }
 
+p{
+  color: #757474;
+}
+
 header{
   height: auto;
 }
@@ -104,6 +108,11 @@ nav ul li a:hover{
   padding: 80px 0 80px 0;
 }
 
+.about h1{
+  padding:20px 0 30px 0;
+  color: #26A65B;
+}
+
 .about .row{
   width: 960px;
 }
@@ -118,15 +127,42 @@ nav ul li a:hover{
 
 
 .beginning{
-  background-color: #FFF;
   width: 100%;
   height: auto;
-  padding: 80px 0 80px 0;
+  padding: 40px 0 40px 0;
+}
+
+.beginning .row{
+  background-color: #FFF;
+  padding: 20px;
+}
+
+.beginning h2{
+  margin-bottom: 20px;
+}
+
+.beginning h4{
+  margin-top: 10px;
 }
 
 .beginning img{
   width: 100%;
   border-radius: 50%;
+  border: solid 7px #F0F0F0;
+}
+
+
+
+.achievements{
+  width: 100%;
+  height: auto;
+  padding: 80px 0 80px 0;
+}
+
+.achievements img{
+  width: 100px;
+  display: block;
+  margin: 0 auto;
 }
 
 
@@ -142,20 +178,6 @@ footer h1{
   font-size: 94px;
   color: #F0F0F0;
   letter-spacing: 2px;
-}
-
-.scrollup{
-  float: right;
-}
-
-.scrollup i{
- text-decoration: none;
- color: #26A65B; 
- opacity: 1;
-}
-
-.scrollup i{
- background-color: #F0F0F0; 
 }
 
 
