@@ -28,8 +28,8 @@ body{
   background-color: #F4F4F4;
 }
 
-.logo{
-  margin:10px 0px 10px 20px; 
+header{
+  padding-top: 20px;
 }
 
 .message{
@@ -78,6 +78,9 @@ nav ul li a:hover{
   background-color: #e8e8e8;
 }
 
+.learn h1{
+  color: #26A65B;
+}
 
 
 
