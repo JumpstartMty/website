@@ -82,6 +82,11 @@ nav ul li a:hover{
   color: #26A65B;
 }
 
+.learn p{
+  padding-right: 20px;
+}
+
+
 
 
 .resources{
@@ -90,9 +95,14 @@ nav ul li a:hover{
   height: auto;
 }
 
+.resources i{
+  color: #848484;
+}
+
 .resources h2{
   font-size: 28px;
-  padding-bottom: 60px;
+  padding:20px 0 60px 0;
+  color: #26A65B;
 }
 
 .courses, .books, .various{
