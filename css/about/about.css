@@ -61,9 +61,9 @@ header{
 
 .message{
 width: 100%;
-height: 300px;
+height: 200px;
 background-repeat:no-repeat;
-background-image: url(http://www.1871.com/wp-content/uploads/2013/04/Photo-Apr-21-4-18-38-PM1.jpg);
+background-image: url(https://s3.amazonaws.com/LoveItOrLeavitt/working-people-1.JPG);
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
@@ -109,7 +109,7 @@ nav ul li a:hover{
 
 .about h1{
   padding:20px 0 30px 0;
-  color: #26A65B;
+  color: #584768;
 }
 
 .about .row{
@@ -128,16 +128,21 @@ nav ul li a:hover{
 .beginning{
   width: 100%;
   height: auto;
-  padding: 40px 0 40px 0;
+  padding: 80px 0 80px 0;
+  background-image: url(http://i.imgur.com/NH1nLsV.png);
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .beginning .row{
-  background-color: #FFF;
+  background-color: #F4F4F4;
   padding: 20px;
+  border-radius: 5px;
 }
 
 .beginning h2{
   margin-bottom: 20px;
+  color: #842B27;
 }
 
 .beginning h4{
@@ -147,7 +152,7 @@ nav ul li a:hover{
 .beginning img{
   width: 100%;
   border-radius: 50%;
-  border: solid 7px #F0F0F0;
+  border: solid 7px #FF7665;
 }
 
 
