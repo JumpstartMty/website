@@ -454,7 +454,7 @@ footer h1{
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
-.info .container{
+.info .container, footer .container{
   width:960px;
 }
 
@@ -467,7 +467,7 @@ footer h1{
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  .info .container, .featured .container{
+  .info .container, .featured .container, footer .container{
   width:960px;
 } 
 
