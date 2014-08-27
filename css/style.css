@@ -406,24 +406,14 @@ footer h1{
   letter-spacing: 2px;
 }
 
-footer p{
+footer h2{
   color: #F4F4F4;
 }
 
-.scrollup{
-  float: right;
+footer p{
+  color: #F4F4F4;
+  margin-top: 20px;
 }
-
-.scrollup i{
- text-decoration: none;
- color: #26A65B; 
- opacity: 1;
-}
-
-.scrollup i{
- background-color: #F0F0F0; 
-}
-
 
 
 @media (min-width: 40em) {
