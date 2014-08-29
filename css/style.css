@@ -408,11 +408,22 @@ footer h1{
 
 footer h2{
   color: #F4F4F4;
+  margin-top: 17px;
 }
 
 footer p{
   color: #F4F4F4;
   margin-top: 20px;
+}
+
+footer i{
+  color: rgba(244,244,244,0.6) !important;
+  margin-top: 20px;
+}
+
+footer i:hover{
+  color: rgba(244,244,244,0.9) !important;
+  cursor: pointer;
 }
 
 
