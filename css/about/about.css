@@ -129,7 +129,7 @@ nav ul li a:hover{
   width: 100%;
   height: auto;
   padding: 80px 0 80px 0;
-  background-image: url(http://i.imgur.com/NH1nLsV.png);
+  background-image: url(../../img/techbg.png);
   background-attachment: fixed;
   background-position: center;
 }
@@ -142,7 +142,7 @@ nav ul li a:hover{
 
 .beginning h2{
   margin-bottom: 20px;
-  color: #842B27;
+  color: #595959;
 }
 
 .beginning h4{
@@ -152,7 +152,6 @@ nav ul li a:hover{
 .beginning img{
   width: 100%;
   border-radius: 50%;
-  border: solid 7px #FF7665;
 }
 
 
