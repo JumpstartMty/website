@@ -73,26 +73,27 @@ background-position: center;
 }
 
 .intro a{
-  border:solid 3px rgba(38,166,91,0.5);
+  /*border:solid 3px rgba(38,166,91,0.5);*/
   padding: 15px 25px 15px 25px;
+  background-color: #26A65B;
   color: #F7F7F7;
   text-decoration: none;
   text-align: center;
   font-family: Helvetica;
-  font-size: 26px;
+  font-size: 22px;
   border-radius: 5px;
   display: block;
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 250px;
   transition:0.2s ease-in-out;
 }
 
 .intro a:hover{
-  background-color: #26A65B;
+  background-color: #1f914d;
   color: #F7F7F7;
-  border-color: #26A65B;
+  /*border-color: #26A65B;*/
 }
 
 .intro p{
@@ -117,7 +118,8 @@ margin: 40px auto;
   text-align: center;
   font-size: 36px;
   font-family: Helvetica;
-  color: #fff;
+  line-height: 45px;
+  color: #FFF;
 }
 
 
@@ -369,6 +371,7 @@ font-family: Poetsen;
 font-weight: 100;
 letter-spacing: 1px;
 padding: 20px 0 20px 0;
+color: #272830;
 }
 
 .sponsor h1 i{
@@ -452,12 +455,17 @@ footer i:hover{
 }
 
 
-@media (min-width: 40em) {
+@media (min-width: 18em) {
 
 .nav-collapse ul {
   width: 50%;
   float: right;
   margin-top: 20px;
+}
+
+.icon-bar{
+  background-color: #F4F4F4;
+
 }
 
 }
@@ -473,7 +481,13 @@ footer i:hover{
   padding-right: 10%;
 }
 
+
+.navbar-toggle{
+  background-color: #26A65B;
+  color: #FFF;
  }
+
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
@@ -481,6 +495,7 @@ nav{
   display: inline-block;
   float: right;
 }
+
 
 nav ul li{
   list-style: none;
