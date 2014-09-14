@@ -64,39 +64,12 @@ background-image: url(http://vectorblog.org/wp-content/uploads/2013/10/IMG_9923.
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
-}
-
-nav{
-  display: inline-block;
-  float: right;
-}
-
-nav ul li{
-  list-style: none;
-  display: inline-block;
-  color: #FFF;
-  text-align: center;
-  width:100px;
-}
-
-nav ul li a{
-  display: block;
-  color: #F7F7F7;
-  text-decoration: none;
-  font-family: Helvetica;
-  padding:20px 0px 10px 0px;
-}
- 
-nav ul li a:hover{
-  border-bottom: solid 3px  #FFF;
-  text-decoration: none;
-   color: #F7F7F7;
-}   
+}  
 
 .intro{
   width: 100%;
   height: auto;
-  margin: 10% auto;
+  margin: 15.5% auto 15.5% auto;
 }
 
 .intro a{
@@ -504,7 +477,38 @@ footer i:hover{
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
+nav{
+  display: inline-block;
+  float: right;
+}
 
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+  width:100px;
+  background-color: transparent !important;
+}
+
+nav .nav>li>a:hover, .nav>li>a:focus{
+  background-color: rgba(255,255,255,0);
+}
+
+nav ul li a{
+  display: block;
+  color: #F7F7F7;
+  text-decoration: none;
+  font-family: Helvetica;
+  padding:20px 0px 10px 0px;
+  margin-top: 5px;
+}
+ 
+nav ul li a:hover{
+  border-bottom: solid 3px  #FFF;
+  text-decoration: none;
+   color: #F7F7F7;
+} 
  }
 
 /* Medium devices (desktops, 992px and up) */
@@ -513,6 +517,8 @@ footer i:hover{
 .info .container, footer .container{
   width:960px;
 }
+
+
 
 }
 
