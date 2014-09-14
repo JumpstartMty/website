@@ -112,7 +112,7 @@ nav ul li a:hover{
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 300px;
   transition:0.2s ease-in-out;
 }
 
@@ -155,6 +155,16 @@ margin: 40px auto;
   height: auto;
   padding: 80px 0 80px 0;
   margin-top: -5px;
+  /*background-image: url(../img/featuredbg.png);*/
+  background-color: #F4F4F4;
+}
+
+.explain{
+  background-color: #F4F4F4;
+  border-radius: 5px;
+  margin: 10px;
+  height: auto;
+  /*padding: 30px 10px 30px 10px;*/
 }
 
 .explain:hover img{
@@ -177,6 +187,7 @@ margin: 40px auto;
   75%  {transform: translateY(-8px);}
   100%  {transform: translateY(0px);}
 }
+
 
 
 .info img{
@@ -203,7 +214,7 @@ margin: 40px auto;
 }
 
 .info p{
-  font-size: 16px;
+  font-size: 14px;
   color: #757474;
   padding-left: 10px;
   padding-right: 10px;
@@ -217,14 +228,22 @@ margin: 40px auto;
   padding: 60px 0 60px 0;
   margin-top: -5px;
   background-color: #FFF;
+  /*background-image: url(../img/featuredbg.png);
+  background-attachment: fixed;
+  background-position: center;*/
 }
 
 .featured .container{
-  background-color: #FFF;
+  /*background-color: #FFF;*/
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
+}
+
+.eachProject{
+  background-color: #FFF;
+  padding: 15px;
 }
 
 .featured h1, .sponsor h1{
@@ -255,10 +274,6 @@ header, .projects{
   padding-top: 20px;
 }
 
-.projects .btn-group, .projects p{
-  padding-left:8%;
-  padding-right:8%; 
-}
 
 .featured a{
   text-decoration: none;
@@ -291,6 +306,7 @@ header, .projects{
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
+  width: 100%;
 }
 
 
@@ -327,6 +343,30 @@ position: relative;
 
 }
 
+.featured .projects .col-md-6{
+  padding-left: 0px !important;
+  padding-right: 4px !important;
+}
+
+.featured .projects .col-md-6:last-child{
+  padding-right: 0px !important;
+  padding-left: 4px !important;
+  
+}
+
+
+
+.featured .eachProject .info-btn:first-child{
+  border-radius: 2px;
+  background-color: #16a085 !important;
+  color: #F4F4F4;
+}
+
+.featured .eachProject .demo-btn{
+  border-radius: 2px;
+  background-color: #674172 !important;
+  color: #F4F4F4;
+}
 
 
 
@@ -452,10 +492,6 @@ footer i:hover{
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
-.projects .btn-group, .projects p{
-  padding-left:14%;
-  padding-right:14%; 
-}
 
  }
 
@@ -464,11 +500,6 @@ footer i:hover{
 
 .info .container, footer .container{
   width:960px;
-}
-
-.projects .btn-group, .projects p{
-  padding-left:8%;
-  padding-right:8%; 
 }
 
 }
