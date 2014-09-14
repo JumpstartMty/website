@@ -354,7 +354,9 @@ position: relative;
   
 }
 
-
+.info-btn i, .demo-btn i{
+  padding-right: 6px;
+}
 
 .featured .eachProject .info-btn:first-child{
   border-radius: 2px;
