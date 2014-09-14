@@ -343,6 +343,8 @@ position: relative;
 
 }
 
+/*Featured buttons*/
+
 .featured .projects .col-md-6{
   padding-left: 0px !important;
   padding-right: 4px !important;
@@ -354,7 +356,7 @@ position: relative;
   
 }
 
-.info-btn i, .demo-btn i{
+.info-btn i, .demo-btn i, .info-btn span, .demo-btn span{
   padding-right: 6px;
 }
 
@@ -364,10 +366,18 @@ position: relative;
   color: #F4F4F4;
 }
 
+.featured .eachProject .info-btn:first-child:hover{
+  background-color: #0f7762 !important;
+}
+
 .featured .eachProject .demo-btn{
   border-radius: 2px;
   background-color: #674172 !important;
   color: #F4F4F4;
+}
+
+.featured .eachProject .demo-btn:hover{
+  background-color: #4b2f54 !important;
 }
 
 
