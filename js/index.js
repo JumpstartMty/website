@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $(window).scroll(function () {
+   /* $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.scrollup').fadeIn();
         } else {
@@ -13,8 +13,10 @@ $(document).ready(function () {
             scrollTop: 0
         }, 800);
         return false;
-    });
+    });*/
+
+var nav = responsiveNav(".nav-collapse");
+
+
 
 });
-
-

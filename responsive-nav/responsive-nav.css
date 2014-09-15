@@ -1,22 +1,7 @@
 /*! responsive-nav.js 1.0.32 by @viljamis */
 
 .nav-collapse ul {
-  margin: 0;
-  padding: 0;
   width: 100%;
-  display: block;
-  list-style: none;
-}
-
-.nav-collapse li {
-  width: 100%;
-  display:inline-block;
-  font-family: "Tahoma", sans-serif;
-}
-
-.nav-collapse a{ 
-  text-decoration: none;
-  color: #F7F7F7;
 }
 
 .js .nav-collapse {
@@ -37,52 +22,22 @@
 }
 
 .nav-toggle {
-  background-color: #088A08;
-  position: fixed;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -o-user-select: none;
   user-select: none;
-  text-decoration: none;
-  text-indent: -999px;
-  position: relative;
-  overflow: hidden;
-  width: 70px;
-  height: 55px;
-  float: right;
 }
-
-
-.nav-toggle:before {
-  color: #FFFFFF; /* Edit this to change the icon color */
-  font-family: "Helvetica", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  font-size: 32px;
-  text-transform: none;
-  position: absolute;
-  content: "≡";
-  text-indent: 0;
-  text-align: center;
-  line-height: 55px;
-  speak: none;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-
-
 
 @media screen and (min-width: 40em) {
-  .js .nav-collapse {
+  /*.js .nav-collapse {
     position: relative;
-  }
+  }*/
   .js .nav-collapse.closed {
     max-height: none;
+    width: auto;
   }
   .nav-toggle {
     display: none;

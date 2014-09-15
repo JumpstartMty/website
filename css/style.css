@@ -484,12 +484,6 @@ footer .col-md-12 p{
 
 @media (min-width: 18em) {
 
-.nav-collapse ul {
-  width: 50%;
-  float: right;
-  margin-top: 20px;
-}
-
 .icon-bar{
   background-color: #F4F4F4;
 
@@ -519,6 +513,7 @@ footer .col-md-12{
  }
 
 }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
@@ -555,7 +550,14 @@ nav ul li a:hover{
   text-decoration: none;
    color: #F7F7F7;
 } 
+
+.navbar-collapse{
+  padding-right:0; 
+  padding-left:0;
  }
+
+ 
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
