@@ -320,12 +320,12 @@ position: relative;
 
 /*Featured buttons*/
 
-.featured .projects .col-md-6{
+.featured .projects .col-xs-6{
   padding-left: 0px !important;
   padding-right: 4px !important;
 }
 
-.featured .projects .col-md-6:last-child{
+.featured .projects .col-xs-6:last-child{
   padding-right: 0px !important;
   padding-left: 4px !important;
   
@@ -341,9 +341,7 @@ position: relative;
   color: #F4F4F4;
 }
 
-.featured .eachProject .info-btn:first-child:hover{
-  background-color: #0f7762 !important;
-}
+.featured .eachProject .info-btn:first-child:hover{background-color: #0f7762 !important;}
 
 .featured .eachProject .demo-btn{
   border-radius: 2px;
@@ -351,9 +349,7 @@ position: relative;
   color: #F4F4F4;
 }
 
-.featured .eachProject .demo-btn:hover{
-  background-color: #4b2f54 !important;
-}
+.featured .eachProject .demo-btn:hover{background-color: #4b2f54 !important;}
 
 
 
