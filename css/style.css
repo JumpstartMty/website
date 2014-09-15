@@ -353,6 +353,9 @@ position: relative;
 
 
 
+
+
+
 .sponsor{
   padding:80px 0 80px 0;
   width: 100%;
@@ -489,7 +492,13 @@ footer .col-md-12{
   text-align: center;
 }
 
+.featured .eachProject:last-child{
+  margin-top: 30px;
 }
+
+}
+
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -551,6 +560,11 @@ nav ul li a:hover{
   padding-right:0; 
   padding-left:0;
  }
+
+.eachProject{
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
  
 }
