@@ -509,6 +509,10 @@ footer .col-md-12 p{
   font-size: 20px;
   }
 
+  .logo img{
+    width: 150px;
+  }
+
 }
 
 
@@ -566,6 +570,9 @@ nav ul li a{
   .featured .eachProject .col-xs-6:last-child{
   padding-right: 0px !important;
   padding-left: 0px !important;  
+  }
+.logo img{
+    width: 100%;
   }
 /*.eachProject .info-btn, .eachProject .demo-btn, .eachProject .col-xs-6{
     width: 100%;*/
