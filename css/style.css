@@ -69,7 +69,7 @@ background-position: center;
 .intro{
   width: 100%;
   height: auto;
-  margin: 12% auto 10% auto;
+  margin: 13% auto;
 }
 
 .intro a{
@@ -94,6 +94,11 @@ background-position: center;
   background-color: #1f914d;
   color: #F7F7F7;
   /*border-color: #26A65B;*/
+}
+
+.intro i{
+  padding-left: 5px;
+
 }
 
 .intro p{
@@ -480,8 +485,21 @@ footer .col-md-12 p{
 .gh .fa-inverse:hover{background-color: #1c1c1c;}
 
 
+@media (max-width: 320px){
+  .eachProject{
+    width: 100%;
+  }
 
-@media (min-width: 18em) {
+  .eachProject .info-btn, .eachProject .demo-btn{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  } 
+
+}
+
+
+@media (min-width: 320px) {
 
 .icon-bar{
   background-color: #F4F4F4;
@@ -492,9 +510,9 @@ footer .col-md-12{
   text-align: center;
 }
 
-.featured .eachProject:last-child{
-  margin-top: 30px;
-}
+/*.eachProject h3{
+  font-size: 20px;
+}*/
 
 }
 
