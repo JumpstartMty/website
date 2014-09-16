@@ -486,7 +486,7 @@ footer .col-md-12 p{
 
 
 @media (max-width: 320px){
-  .eachProject{
+  .projects .col-xs-6{
     width: 100%;
   }
 
