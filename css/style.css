@@ -516,14 +516,14 @@ footer .col-md-12{
   padding-right: 0px;
 }
 
+  .featured .projects div:first-child{
+    margin-bottom: 20px;
+  }
+
   .featured .projects .col-xs-6:last-child{
   margin-left: -4px;
   padding-right: 0px;
   padding-left: 0px;  
-}
-
-.eachProject {
-  margin-bottom: 20px;
 }
 
 }
