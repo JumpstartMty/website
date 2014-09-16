@@ -55,6 +55,9 @@ header{
   height: auto;
 }
 
+.logo img{
+  width: 300px;
+}
 
 .message{
 width: 100%;
@@ -516,6 +519,11 @@ footer .col-md-12{
   text-align: center;
 }
 
+.eachProject{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
  .featured .projects .col-xs-6{
   padding-left: 0px;
   padding-right: 0px;
@@ -531,9 +539,30 @@ footer .col-md-12{
   padding-left: 0px;  
 }
 
+/*.eachProject .info-btn, .eachProject .demo-btn, .eachProject .col-xs-6{
+    width: 100%;*/
+  } 
+
 }
 
 
+/* No greater than 480px, no less than 320px 
+@media (max-width:420px) {
+
+    .projects .col-xs-6{
+    width: 100%;
+  }
+
+    .eachProject .info-btn, .eachProject .demo-btn{
+    width: 100%;
+    } 
+
+    .featured .eachProject .demo-btn{
+    margin-top: 5px;
+    margin-left: 0px;
+    }
+
+}​*/
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -552,10 +581,29 @@ footer .col-md-12{
   color: #FFF;
  }
 
+
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+
+
+
+.navbar-collapse{
+  padding-right:0; 
+  padding-left:0;
+ }
+
+.eachProject{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+ 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
 
 nav{
   display: inline-block;
@@ -591,27 +639,14 @@ nav ul li a:hover{
    color: #F7F7F7;
 } 
 
-.navbar-collapse{
-  padding-right:0; 
-  padding-left:0;
- }
+.info .container, footer .container{
+  width:960px;
+}
 
 .eachProject{
   padding-left: 30px;
   padding-right: 30px;
 }
-
- 
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
-.info .container, footer .container{
-  width:960px;
-}
-
-
 
 }
 
