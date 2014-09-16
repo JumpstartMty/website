@@ -325,12 +325,12 @@ position: relative;
 
 /*Featured buttons*/
 
- .featured .projects .col-xs-6{
+ .featured .eachProject .col-xs-6{
   padding-left: 0px !important;
   padding-right: 4px !important;
 }
 
-  .featured .projects .col-xs-6:last-child{
+  .featured .eachProject .col-xs-6:last-child{
   padding-right: 0px !important;
   padding-left: 4px !important;  
 }
@@ -517,14 +517,14 @@ footer .col-md-12{
 }
 
   .featured .projects .col-xs-6:last-child{
-  margin-top: 5px;
+  margin-left: -4px;
   padding-right: 0px;
   padding-left: 0px;  
 }
 
-/*.eachProject h3{
-  font-size: 20px;
-}*/
+.eachProject {
+  margin-bottom: 20px;
+}
 
 }
 
