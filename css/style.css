@@ -351,6 +351,7 @@ position: relative;
   border-radius: 2px;
   background-color: #674172 !important;
   color: #F4F4F4;
+  margin-left: 4px;
 }
 
 .featured .eachProject .demo-btn:hover{background-color: #4b2f54 !important;}
@@ -497,6 +498,10 @@ footer .col-md-12 p{
     margin-top: 5px;
   } 
 
+  .featured .eachProject .demo-btn{
+  margin-left: 0px;
+}
+
 }
 
 
@@ -516,8 +521,8 @@ footer .col-md-12{
   padding-right: 0px;
 }
 
-  .featured .projects div:first-child{
-    margin-bottom: 20px;
+  .featured .projects > div{
+    margin-bottom: 30px;
   }
 
   .featured .projects .col-xs-6:last-child{
