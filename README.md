@@ -1,5 +1,4 @@
 #Página web de Jumpstart MX
 
 
-####Sitio oficial de Jumpstart México desarrollado con HTML5/CSS3
-//Descontinuado, se pasará a Bootstrap.
+####Sitio oficial de Jumpstart México.
