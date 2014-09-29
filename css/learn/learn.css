@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
 /* ------------------------------------------
   RESET
 ---------------------------------------------*/
@@ -34,12 +35,14 @@ header{
 
 .message{
 width: 100%;
-height: 200px;
-background-repeat:no-repeat;
-background-image: url(http://www.krsjoseph.com/wp-content/uploads/2014/03/Coding_Shots_Annual_Plan_high_res-5.jpg);
+height: auto;
+padding-bottom: 20px;
+background-color: #2980b9;
+/*background-repeat:no-repeat;
+background-image: url(../../img/techbg.png);
 background-size: cover;
 background-attachment: fixed;
-background-position: center;
+background-position: center;*/
 }
 
 
@@ -75,15 +78,18 @@ nav ul li a:hover{
   padding:80px 0 80px 0;
   width: 100%;
   height: auto;
-  background-color: #e8e8e8;
+  background-color: #FAFAFA;
 }
 
 .learn h1{
-  color: #26A65B;
+  /*color: #26A65B;*/
+  color: #2980b9;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
 }
 
 .learn p{
-  padding-right: 20px;
+  padding-right:20px;
 }
 
 

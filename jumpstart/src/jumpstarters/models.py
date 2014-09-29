@@ -11,7 +11,7 @@ class jumpstarter(models.Model):
 	lastName = models.CharField( max_length = 60)
 	email = models.EmailField()
 	description = models.TextField( max_length = 200, null = True, blank = True)
-	profileImg = models.ImageField(upload_to = 'photos', null = True, blank = True)
+	profileImg = models.ImageField(upload_to = 'photos', default = 'pic_folder/None/no-img.jpg', null = True, blank = True)
 	joinDate = models.DateTimeField( auto_now_add = True, auto_now = False )	
 
 	def __unicode__(self):

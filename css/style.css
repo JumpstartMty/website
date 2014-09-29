@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 
 @font-face
 {
@@ -136,7 +138,7 @@ margin: 40px auto;
 .info{
   width: 100%;
   height: auto;
-  padding: 80px 0 80px 0;
+  padding: 70px 0 80px 0;
   margin-top: -5px;
   /*background-image: url(../img/featuredbg.png);*/
   background-color: #F4F4F4;
@@ -147,12 +149,12 @@ margin: 40px auto;
   border-radius: 5px;
   margin: 10px;
   height: auto;
-  /*padding: 30px 10px 30px 10px;*/
+  /*padding: 35px 20px 35px 20px;*/
 }
 
 .explain:hover img{
-  -webkit-animation:jump 0.7s;
-  animation:jump 0.7s;
+  -webkit-animation:jump 0.5s;
+  animation:jump 0.5s;
 }
 
 @-webkit-keyframes jump {
@@ -194,13 +196,15 @@ margin: 40px auto;
   text-align: center;
   padding-top: 20px;
   color: #26A65B;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .info p{
-  font-size: 14px;
+  font-size: 15px;
   color: #757474;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 20px;
 }
 
 
@@ -227,6 +231,7 @@ margin: 40px auto;
 .eachProject{
   background-color: #FFF;
   padding: 15px;
+  height: auto;
 }
 
 .featured h1, .sponsor h1{
