@@ -6,11 +6,10 @@
         <title>Jumpstart MTY</title>
         <!-- Enlazando el menu responsivo -->
         <link rel="stylesheet" href="responsive-nav/responsive-nav.css">
-        <script src="responsive-nav/responsive-nav.js"></script>
         <!-- Latest compiled and minified CSS of Bootstrap-->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <!--Font awesome-->
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <!--My CSS-->
         <link rel="stylesheet" type="text/css" href="css/learn/learn.css">
     </head>
@@ -23,7 +22,7 @@
                             <a href="index.html"><img class="logo" src="img/logo10.png" href="index.html" width="300"></a>
                         </div>
                         <div class="col-md-6 col-md-offset-2">
-                            <nav>
+                            <nav class="nav-collapse">
                                 <ul>
                                     <li><a href="about.html">Acerca</a></li>
                                     <li><a href="#">Eventos</a></li>
@@ -43,7 +42,7 @@
                         <h1>¿Quieres construir algo increíble con tecnología?</h1>
                         <br/><br/>
                         <p>
-                            Crear esa página web, esa app que tienes en mente, <b>es posible</b>, hay que poner manos a la obra. Aquí te dejamos recursos gratuitos para que empieces justo ahora a probar las diferentes tecnologías con las que se construyen cosas geniales hoy en día.
+                            Crear esa página web, esa app que tienes en mente, <b>es posible</b>, pero hay que poner manos a la obra, tú y yo sabemos que ese hermoso código no se escribe por si solo. Tenemos que conocer bien nuestras herramientas cual mecánico o carpintero</p><br/><p>Aquí te dejamos recursos gratuitos para que empieces justo ahora a probar las diferentes tecnologías con las que se construyen cosas geniales hoy en día.
                         </p>
                     </div>           
                     <div class="col-md-8">                
@@ -56,13 +55,19 @@
             <div class="container">
                 <div class="row">
                 <div class="col-md-12 text-center">
-                <img src="img/book.png">
-          			<h2>Aprende lo que quieras hoy, gratis.</h2>
+                    <img src="img/book.png">
+          			<h2>Aprende lo que quieras hoy y gratis.</h2>
                 </div>	
-                    <div class="col-md-6">
-                    	<table class="table table-striped various">
+                    <div class="col-sm-6">
+                    	<table class="table table-striped various">    
                             <thead>
-                                <tr>                             
+                                <tr>          
+                                    <th colspan="2"><i class="fa fa-pie-chart fa-3x"></i></th>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>  
+                                              
                                     <th>Varias tecnologías</th>
                                     <th>Idioma</th>
                                 </tr>
@@ -106,9 +111,12 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <table class="table table-striped books">
                             <thead>
+                                <tr>          
+                                    <th colspan="2"><i class="fa fa-book fa-3x"></i></th>
+                                </tr>
                                 <tr>
                                     <th>Libros gratuitos</th>
                                     <th>Idioma</th>
@@ -134,9 +142,12 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <table class="table table-striped courses">
                             <thead>
+                                <tr>          
+                                    <th colspan="3"><i class="fa fa-desktop fa-3x"></i></th>
+                                </tr>
                                 <tr>
                                     <th>Cursos en línea</th>
                                     <th>Tecnologías a aprender</th>
@@ -183,6 +194,8 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript of Bootstrap-->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <!-- Responsive nav-->
+        <script src="responsive-nav/responsive-nav.js"></script>
         <script src="js/learn.js"></script>
     </body>
 </html>

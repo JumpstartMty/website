@@ -37,7 +37,7 @@ header{
 width: 100%;
 height: auto;
 padding-bottom: 20px;
-background-color: #2980b9;
+background-color: #26A65B;
 /*background-repeat:no-repeat;
 background-image: url(../../img/techbg.png);
 background-size: cover;
@@ -78,18 +78,18 @@ nav ul li a:hover{
   padding:80px 0 80px 0;
   width: 100%;
   height: auto;
-  background-color: #FAFAFA;
+  background-color: #EEEEEE;
 }
 
 .learn h1{
-  /*color: #26A65B;*/
-  color: #2980b9;
+  color: #605d5d;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
+  font-size: 27px;
 }
 
 .learn p{
   padding-right:20px;
+  color: #706C6C;
 }
 
 
@@ -102,32 +102,56 @@ nav ul li a:hover{
 }
 
 .resources i{
-  color: #848484;
+  color: #FFF;
+  width: 50px;
+  display: block;
+  margin: 10px auto;
 }
 
 .resources h2{
   font-size: 28px;
-  padding:20px 0 60px 0;
-  color: #26A65B;
+  padding:20px 0 70px 0;
+  color: #2c3e50;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.courses, .books, .various{
+.table{
   border:solid 1px #DDDDDD;
 }
 
+.table thead>tr>th{
+  border-top: none;
+}
+
+.courses, .books, .various{
+ /*border-right:solid 1px #DDDDDD;
+  border-left:solid 1px #DDDDDD;
+  border-bottom:solid 1px #DDDDDD;*/
+}
+
+.table>thead>tr>th{
+  border-bottom:none;
+}
+
+.table>thead>tr{
+  border-right: solid 1px #DDDDDD;
+  border-left: solid 1px #DDDDDD;
+} 
+
 .various thead{
-  background-color: #6b5272;
-  color: #F4F4F4;
+  background-color: #8e44ad;
+  color: #FFF;
 }
 
 .books thead{
-  background-color: #43968b;
-  color: #F4F4F4;
+  background-color: #16a085;
+  color: #FFF;
 }
 
 .courses thead{
-background-color: #575d77;
-color: #F4F4F4;
+background-color: #4B77BE;
+color: #FFF;
 }
 
 
@@ -159,6 +183,36 @@ footer h1{
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
+nav{
+  display: inline-block;
+  float: right;
+}
+
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+  width:100px;
+  background-color: transparent !important;
+}
+
+nav .nav>li>a:hover, .nav>li>a:focus{
+  background-color: rgba(255,255,255,0);
+}
+
+nav ul li a{
+  display: block;
+  color: #F7F7F7;
+  text-decoration: none;
+  font-family: Helvetica;
+  padding:20px 0px 10px 0px;
+  margin-top: 0px;
+}
+
+
 
 .learn .container, .resources .container{
   width:960px;
