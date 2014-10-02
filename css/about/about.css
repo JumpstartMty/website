@@ -1,25 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
-
-@font-face
-{
-font-family: RobotoSlab;
-src: url(../fonts/RobotoSlab.ttf);
-}
-
-@font-face
-{
-font-family: geoslab;
-src: url(../fonts/geoslab.ttf);
-}
-
-@font-face
-{
-font-family: Poetsen;
-src: url(../fonts/Poetsen.ttf);
-}
-
-
 /* ------------------------------------------
   RESET
 ---------------------------------------------*/
@@ -47,32 +26,25 @@ a:hover {
 @viewport { width: device-width; }
 
 body{
-  background-color: #F0F0F0;
-}
-
-p{
-  color: #757474;
+  background-color: #F4F4F4;
 }
 
 header{
-  height: auto;
+  padding-top: 20px;
 }
-
 
 .message{
 width: 100%;
-height: 200px;
-background-repeat:no-repeat;
-background-image: url(https://s3.amazonaws.com/LoveItOrLeavitt/working-people-1.JPG);
+height: auto;
+padding-bottom: 20px;
+background-color: #26A65B;
+/*background-repeat:no-repeat;
+background-image: url(../../img/techbg.png);
 background-size: cover;
 background-attachment: fixed;
-background-position: center;
+background-position: center;*/
 }
 
-.message .row{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 nav{
   display: inline-block;
@@ -99,74 +71,90 @@ nav ul li a:hover{
   border-bottom: solid 3px  #FFF;
   text-decoration: none;
    color: #F7F7F7;
-}   
+}
 
-.about{
+
+.learn{
+  padding:80px 0 80px 0;
   width: 100%;
   height: auto;
-  padding: 80px 0 80px 0;
+  background-color: #EEEEEE;
 }
 
-.about h1{
-  padding:20px 0 30px 0;
-  color: #584768;
+.learn h1{
+  color: #605d5d;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 27px;
 }
 
-.about .row{
-  width: 960px;
+.learn p{
+  padding-right:20px;
+  color: #706C6C;
 }
 
-.about img{
-  width: 100px;
+
+
+
+.resources{
+  padding:80px 0 80px 0;
+  width: 100%;
+  height: auto;
+}
+
+.resources i{
+  color: #FFF;
+  width: 50px;
   display: block;
-  margin: 0 auto ;
+  margin: 10px auto;
+}
+
+.resources h2{
+  font-size: 28px;
+  padding:20px 0 70px 0;
+  color: #2c3e50;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.table{
+  border:solid 1px #DDDDDD;
+}
+
+.table thead>tr>th{
+  border-top: none;
+}
+
+.courses, .books, .various{
+ /*border-right:solid 1px #DDDDDD;
+  border-left:solid 1px #DDDDDD;
+  border-bottom:solid 1px #DDDDDD;*/
+}
+
+.table>thead>tr>th{
+  border-bottom:none;
+}
+
+.table>thead>tr{
+  border-right: solid 1px #DDDDDD;
+  border-left: solid 1px #DDDDDD;
+} 
+
+.various thead{
+  background-color: #8e44ad;
+  color: #FFF;
+}
+
+.books thead{
+  background-color: #16a085;
+  color: #FFF;
+}
+
+.courses thead{
+background-color: #4B77BE;
+color: #FFF;
 }
 
 
-
-
-.beginning{
-  width: 100%;
-  height: auto;
-  padding: 80px 0 80px 0;
-  background-image: url(../../img/techbg.png);
-  background-attachment: fixed;
-  background-position: center;
-}
-
-.beginning .row{
-  background-color: #F4F4F4;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.beginning h2{
-  margin-bottom: 20px;
-  color: #595959;
-}
-
-.beginning h4{
-  margin-top: 10px;
-}
-
-.beginning img{
-  width: 100%;
-  border-radius: 50%;
-}
-
-
-
-.achievements{
-  width: 100%;
-  height: auto;
-  padding: 80px 0 80px 0;
-}
-
-.achievements img{
-  width: 100px;
-  display: block;
-  margin: 0 auto;
-}
 
 
 footer{
@@ -183,57 +171,58 @@ footer h1{
   letter-spacing: 2px;
 }
 
-
-
-@media (min-width: 40em) {
-
-.nav-collapse ul {
-  width: 50%;
-  float: right;
-  margin-top: 20px;
-}
-
-}
-
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media (max-width: 767px) { 
-.info .col-sm-6:last-child{
-  margin-top: 50px;
-}
-.info p{
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
  }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
-.projects .btn-group, .projects p{
-  padding-left:14%;
-  padding-right:14%; 
-}
 
  }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
-.about .container{
-  width:960px;
+nav{
+  display: inline-block;
+  float: right;
 }
 
-.projects .btn-group, .projects p{
-  padding-left:8%;
-  padding-right:8%; 
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+  width:100px;
+  background-color: transparent !important;
+}
+
+nav .nav>li>a:hover, .nav>li>a:focus{
+  background-color: rgba(255,255,255,0);
+}
+
+nav ul li a{
+  display: block;
+  color: #F7F7F7;
+  text-decoration: none;
+  font-family: Helvetica;
+  padding:20px 0px 10px 0px;
+  margin-top: 0px;
+}
+
+
+
+.learn .container, .resources .container{
+  width:960px;
 }
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  .about .container, .beginning .container{
+  .learn .container, .resources .container{
   width:960px;
 } 
 
