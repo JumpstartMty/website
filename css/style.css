@@ -673,11 +673,10 @@ nav ul li a{
   text-decoration: none;
   font-family: Helvetica;
   padding:20px 0px 10px 0px;
-  margin-top: 5px;
 }
  
 nav ul li a:hover{
-  border-bottom: solid 4px  #1F914D;
+  border-bottom: solid 3px  #FFF;
   text-decoration: none;
    color: #F7F7F7;
 } 
