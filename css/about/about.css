@@ -119,9 +119,7 @@ background-position: center;
   border-radius: 50%;
   display: block;
   margin:0 auto;
-  border:solid 4px #26A65B;
-  -webkit-filter: grayscale(0.5);
-  filter: grayscale(0.5);
+  border:solid 7px #d8d8d8;
 }
 
 .story h3{
