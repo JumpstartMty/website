@@ -227,6 +227,9 @@ footer .col-md-12 p{
 .gh .fa-inverse{background-color: #212121;}
 .gh .fa-inverse:hover{background-color: #1c1c1c;}
 
+.social{
+  padding-top: 10px;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
