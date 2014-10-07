@@ -1,4 +1,4 @@
 #Página web de Jumpstart MX
 
 
-####Sitio oficial de Jumpstart México.
+#####Sitio oficial de Jumpstart México desarrollado con Django.
