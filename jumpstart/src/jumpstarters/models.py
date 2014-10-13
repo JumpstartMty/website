@@ -1,6 +1,5 @@
-from __future__ import unicode_literals
 from django.db import models
-from django.utils.encoding import python_2_unicode_compatible
+#from django.utils.encoding import smart_unicode
 
 
  #Create your models here.
@@ -15,4 +14,4 @@ class jumpstarter(models.Model):
 	joinDate = models.DateTimeField( auto_now_add = True, auto_now = False )	
 
 	def __unicode__(self):
-		return self.name
+		return smart_unicode(self.email)
