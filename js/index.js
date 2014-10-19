@@ -34,5 +34,6 @@ var navigation = responsiveNav(".nav-collapse", {
       });
 
 
+window.sr = new scrollReveal();
 
 });
