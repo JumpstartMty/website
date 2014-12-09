@@ -269,7 +269,7 @@ header, .projects{
 }
 
 .featured .btn-default{
-  border:solid 3px #F0F0F0;
+  border:solid 3px #eaeaea;
   color: #cecece;
 }
 
@@ -349,20 +349,22 @@ position: relative;
 
 .featured .eachProject .info-btn:first-child{
   border-radius: 2px;
-  background-color: #16a085 !important;
+  background-color: #47a59d !important;
   color: #F4F4F4;
+  transition:0.4s;
 }
 
-.featured .eachProject .info-btn:first-child:hover{background-color: #0f7762 !important;}
+.featured .eachProject .info-btn:first-child:hover{background-color: #3f9187 !important;}
 
 .featured .eachProject .demo-btn{
   border-radius: 2px;
-  background-color: #F27935 !important;
+  background-color: #50aa74 !important;
   color: #F4F4F4;
   margin-left: 4px;
+  transition:0.4s;
 }
 
-.featured .eachProject .demo-btn:hover{background-color: #E06E31 !important;}
+.featured .eachProject .demo-btn:hover{background-color: #449966 !important;}
 
 
 
